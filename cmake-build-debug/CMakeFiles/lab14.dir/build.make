@@ -57,42 +57,41 @@ include CMakeFiles/lab14.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab14.dir/flags.make
 
-CMakeFiles/lab14.dir/main.cpp.o: CMakeFiles/lab14.dir/flags.make
-CMakeFiles/lab14.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alex/ClionProjects/lab14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab14.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab14.dir/main.cpp.o -c /Users/alex/ClionProjects/lab14/main.cpp
+CMakeFiles/lab14.dir/builder.cpp.o: CMakeFiles/lab14.dir/flags.make
+CMakeFiles/lab14.dir/builder.cpp.o: ../builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alex/ClionProjects/lab14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab14.dir/builder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab14.dir/builder.cpp.o -c /Users/alex/ClionProjects/lab14/builder.cpp
 
-CMakeFiles/lab14.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab14.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alex/ClionProjects/lab14/main.cpp > CMakeFiles/lab14.dir/main.cpp.i
+CMakeFiles/lab14.dir/builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab14.dir/builder.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alex/ClionProjects/lab14/builder.cpp > CMakeFiles/lab14.dir/builder.cpp.i
 
-CMakeFiles/lab14.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab14.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alex/ClionProjects/lab14/main.cpp -o CMakeFiles/lab14.dir/main.cpp.s
+CMakeFiles/lab14.dir/builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab14.dir/builder.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alex/ClionProjects/lab14/builder.cpp -o CMakeFiles/lab14.dir/builder.cpp.s
 
-CMakeFiles/lab14.dir/main.cpp.o.requires:
+CMakeFiles/lab14.dir/builder.cpp.o.requires:
 
-.PHONY : CMakeFiles/lab14.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/lab14.dir/builder.cpp.o.requires
 
-CMakeFiles/lab14.dir/main.cpp.o.provides: CMakeFiles/lab14.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/lab14.dir/build.make CMakeFiles/lab14.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/lab14.dir/main.cpp.o.provides
+CMakeFiles/lab14.dir/builder.cpp.o.provides: CMakeFiles/lab14.dir/builder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab14.dir/build.make CMakeFiles/lab14.dir/builder.cpp.o.provides.build
+.PHONY : CMakeFiles/lab14.dir/builder.cpp.o.provides
 
-CMakeFiles/lab14.dir/main.cpp.o.provides.build: CMakeFiles/lab14.dir/main.cpp.o
+CMakeFiles/lab14.dir/builder.cpp.o.provides.build: CMakeFiles/lab14.dir/builder.cpp.o
 
 
 # Object files for target lab14
 lab14_OBJECTS = \
-"CMakeFiles/lab14.dir/main.cpp.o"
+"CMakeFiles/lab14.dir/builder.cpp.o"
 
 # External object files for target lab14
 lab14_EXTERNAL_OBJECTS =
 
-lab14: CMakeFiles/lab14.dir/main.cpp.o
+lab14: CMakeFiles/lab14.dir/builder.cpp.o
 lab14: CMakeFiles/lab14.dir/build.make
 lab14: /Users/alex/.hunter/_Base/8667dee/a5fd140/94c4b72/Install/lib/libboost_program_options-mt-d.a
 lab14: /Users/alex/.hunter/_Base/8667dee/a5fd140/94c4b72/Install/lib/libboost_system-mt-d.a
-lab14: /Users/alex/.hunter/_Base/8667dee/a5fd140/94c4b72/Install/lib/libboost_filesystem-mt-d.a
 lab14: CMakeFiles/lab14.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alex/ClionProjects/lab14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab14"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab14.dir/link.txt --verbose=$(VERBOSE)
@@ -102,7 +101,7 @@ CMakeFiles/lab14.dir/build: lab14
 
 .PHONY : CMakeFiles/lab14.dir/build
 
-CMakeFiles/lab14.dir/requires: CMakeFiles/lab14.dir/main.cpp.o.requires
+CMakeFiles/lab14.dir/requires: CMakeFiles/lab14.dir/builder.cpp.o.requires
 
 .PHONY : CMakeFiles/lab14.dir/requires
 
